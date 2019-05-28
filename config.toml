@@ -1,0 +1,10 @@
+baseURL = "https://graphqlfoundation.io"
+languageCode = "en-us"
+title = "graphql.dev"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+enableRobotsTxt = true
+
+[params.logos]
+hero   = "graphql-icon.svg"
+navbar = "graphql-rectangle.svg"
+footer = "graphql-icon.svg"
