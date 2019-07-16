@@ -1,4 +1,4 @@
-{{- $faq := .Site.Data.faq}}
+{{ $faq := site.Data.faq}}
 <a id="faq"></a>
 <section class="section">
   <div class="container">
@@ -9,19 +9,19 @@
     <hr class="has-background-primary" />
 
     <div class="content is-medium is-faq-content">
-      {{- range $faq }}
-      {{- $question := .q | markdownify }}
-      {{- $answer   := .a | markdownify }}
+      {{ range $faq }}
+      {{ $question := .q | markdownify }}
+      {{ $answer   := .a | markdownify }}
       <section class="faq">
         <p class="is-size-4 has-text-weight-bold">
-          <span class="is-faq-q">Q:</span> {{ $question }}
+          <span class="has-text-grey-darker">Q:</span> {{ $question }}
         </p>
 
         <p class="is-size-5 is-faq-answer">
           {{ $answer }}
         </p>
       </section>
-      {{- end }}
+      {{ end }}
     </div>
   </div>
 </section>

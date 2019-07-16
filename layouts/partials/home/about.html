@@ -1,6 +1,6 @@
-{{- $home  := .Site.Params.home }}
-{{- $info  := $home.info | markdownify }}
-{{- $about := $home.about | markdownify }}
+{{ $home  := site.Params.home }}
+{{ $info  := $home.info | markdownify }}
+{{ $about := $home.about | markdownify }}
 <section class="section">
   <div class="container">
     <div class="content is-large">
