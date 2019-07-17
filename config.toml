@@ -4,7 +4,10 @@ title = "graphql.dev"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTxt = true
 
+[params]
+description = "An open and neutral home for the GraphQL community to enable widespread adoption and help accelerate development and the surrounding ecosystem"
+
 [params.logos]
-hero   = "graphql-icon.svg"
-navbar = "graphql-rectangle.svg"
+hero   = "graphql-foundation.png"
+navbar = "graphql-foundation-color.png"
 footer = "graphql-icon.svg"

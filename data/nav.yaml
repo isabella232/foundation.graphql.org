@@ -1,0 +1,26 @@
+- name: About
+  links:
+  - name: Charter
+    url: https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md
+  - name: FAQ
+    url: /faq
+  - name: Code of Conduct
+    url: https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md
+- name: News
+  links:
+  - name: All News
+    url: /news
+  - name: Announcements
+    url: /news/announcements
+  - name: In the News
+    url: /news/in-the-news
+- name: Projects
+  links:
+  - name: All Projects
+    url: /projects
+- name: Members
+  links:
+  - name: Our Members
+    url: /members
+  - name: Join
+    url: /join
