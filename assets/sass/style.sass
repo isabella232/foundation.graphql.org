@@ -34,6 +34,25 @@ $family-sans-serif: 'Source Sans Pro', sans-serif
 =overlay
   background-color: rgba(221,23,151,.75)
 
+.footer
+  background-color: $dark
+
+  &-logo
+    margin-bottom: 2rem
+
+    +mobile
+      width: 4rem
+    +desktop
+      width: 5rem
+
+  &-copyright
+    color: $grey-light
+
+    a
+      color: $grey-lighter
+
+      &:hover
+        color: $primary
 
 .hero.home
   background-image: url({{ "/img/shutterstock_550182415.jpg" | relURL }})

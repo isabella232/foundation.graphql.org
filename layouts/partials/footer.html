@@ -1,12 +1,13 @@
 {{ $year    := now.Year }}
 {{ $logo    := site.Params.logos.footer }}
 {{ $logoUrl := printf "img/logos/%s" $logo | relURL }}
+{{ $copyright := site.Params.copyright | markdownify }}
 <footer class="footer has-text-centered">
   <div class="container">
-    <img src="{{ $logoUrl }}" class="is-footer-logo">
+    <img src="{{ $logoUrl }}" class="footer-logo">
 
-    <p class="is-size-5 has-text-grey-lighter">
-      &copy; {{ $year }} The GraphQL Foundation
+    <p class="is-size-5 is-size-6-mobile has-text-weight-medium footer-copyright">
+      &copy; {{ $year }} The GraphQL Foundation. {{ $copyright }}
     </p>
   </div>
 </footer>
