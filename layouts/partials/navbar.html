@@ -28,7 +28,7 @@
           <div class="navbar-dropdown is-radiusless">
             {{ range .links }}
             {{ $url := .url | relURL }}
-            <a class="navbar-item has-text-light" href="{{ $url }}">
+            <a class="navbar-item" href="{{ $url }}">
               {{ .name }}
             </a>
             {{ end }}
