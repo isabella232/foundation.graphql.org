@@ -5,11 +5,14 @@
 {{ $logo     := site.Params.logos.hero }}
 {{ $logoUrl  := printf "img/logos/%s" $logo | relURL }}
 {{ $desc     := site.Params.description }}
-<section class="hero is-dark is-medium">
+<section class="hero is-fullheight-with-navbar home">
   <div class="hero-body">
     <div class="container has-text-centered">
       <img class="is-hero-logo" src="{{ $logoUrl }}">
-     </div>
+
+      <p class="title is-size-2 is-size-4-mobile has-text-white has-text-weight-light">
+        {{ $desc }}
+      </p>
     </div>
   </div>
 </section>

@@ -3,10 +3,10 @@
 @url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,500)
 
 // GraphQL color palette
-$pink: #dd1797
+$pink: rgb(221,23,151)
 $off-black: #181e26
 $purple: #2a3745
-  
+
 @import "bulma/sass/utilities/initial-variables"
 @import "bulma/sass/utilities/functions"
 
@@ -17,22 +17,40 @@ $link: $primary
 $link-hover: $grey-light
 
 $navbar-height: 5rem
-$navbar-item-img-max-height: $navbar-height * 0.45
+$navbar-item-img-max-height: $navbar-height * 0.5
 $navbar-burger-color: $primary
 $navbar-item-hover-background-color: $white
+$navbar-dropdown-border-top: 1px solid $grey-light
+$navbar-dropdown-item-hover-color: $primary
+$dropdown-content-padding-bottom: 0
+$dropdown-content-padding-top: 0
+$section-padding: 5rem 1.5rem
 $family-sans-serif: 'Source Sans Pro', sans-serif
 
 @import "bulma/sass/utilities/derived-variables"
+
 @import "bulma/bulma"
 
-.hero
-  background-image: url({{ "img/hero-bg.png" | relURL }})
+=overlay
+  background-color: rgba(221,23,151,.75)
+
+
+.hero.home
+  background-image: url({{ "/img/shutterstock_550182415.jpg" | relURL }})
+  background-position: left top
+  background-repeat: no-repeat
+  background-size: cover
+
+  .hero-body
+    +overlay
 
   .is-hero-logo
     +mobile
-      width: 75%
+      width: 90%
+      margin-bottom: 1.5rem
     +tablet
       width: 60%
+      margin-bottom: 3rem
 
 .is-faq-content
   .faq

@@ -1,10 +1,11 @@
 baseURL = "https://graphqlfoundation.io"
 languageCode = "en-us"
-title = "graphql.dev"
+title = "The GraphQL Foundation"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTxt = true
 
 [params]
+tagline = "An open and neutral home for the GraphQL community"
 description = "An open and neutral home for the GraphQL community to enable widespread adoption and help accelerate development and the surrounding ecosystem"
 
 [params.logos]
