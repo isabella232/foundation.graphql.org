@@ -4,24 +4,11 @@
 {{ $buttons  := site.Params.home.buttons }}
 {{ $logo     := site.Params.logos.hero }}
 {{ $logoUrl  := printf "img/logos/%s" $logo | relURL }}
-<section class="hero is-fullheight is-dark is-medium">
+{{ $desc     := site.Params.description }}
+<section class="hero is-dark is-medium">
   <div class="hero-body">
     <div class="container has-text-centered">
-     <div class="columns is-vcentered">
-       <div class="column is-4">
-          <img class="is-hero-logo" src="{{ $logoUrl }}">
-       </div>
-       <div class="column is-8">
-        <p class="title is-size-1 is-size-2-mobile has-text-weight-light">
-          {{ $title }}
-        </p>
-
-        <hr class="has-background-primary" />
-
-        <p class="is-size-4 is-size-5-mobile has-text-weight-bold is-uppercase">
-          Coming soon
-        </p>
-       </div>
+      <img class="is-hero-logo" src="{{ $logoUrl }}">
      </div>
     </div>
   </div>
