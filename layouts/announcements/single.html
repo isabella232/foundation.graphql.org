@@ -1,0 +1,57 @@
+{{ define "title" }}
+{{ .Title }} &ndash; GraphQL
+{{ end }}
+
+{{ define "main" }}
+{{ $extra  := .Params.extra }}
+{{ $author := .Params.author }}
+{{ $date   := .Date | dateFormat "January 2, 2006" }}
+<section class="hero">
+  <div class="container">
+    <div class="hero-body">
+      <p class="title is-size-1 is-sizee-2-mobile has-text-weight-light is-spaced">
+        {{ .Title }}
+      </p>
+
+      <p class="subtitle has-text-grey has-text-weight-light">
+        {{ with $author }}By {{ . }} |{{ end }}{{ with $date }} {{ . }} |{{ end }} Announcement
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="content is-medium">
+      {{ .Content }}
+
+      <h3>
+        The GraphQL Foundation
+      </h3>
+
+      <p>
+        The GraphQL Foundation is an open, neutral organization that provides oversight of funding,  operations, and marketing resources for the GraphQL community to enable widespread adoption and help accelerate development of the broader ecosystem. The <a href="https://github.com/facebook/graphql">GraphQL specification</a>, <a href="https://github.com/graphql/graphql-js">GraphQL.js</a> reference implementation, <a href="https://github.com/facebook/dataloader">DateLoader</a> library, and <a href="https://github.com/graphql/graphiql">GraphiQL</a> developer tool are technical projects supported by the GraphQL Foundation. More details can be found at <a href="https://foundation.graphql.org">foundation.graphql.org</a>.
+      </p>
+
+      <h3>
+        About the Linux Foundation
+      </h3>
+
+      <p>
+        Founded in 2000, the Linux Foundation is supported by more than 1,000 members and is the world’s leading home for collaboration on open source software, open standards, open data, and open hardware. Linux Foundation’s projects are critical to the world’s infrastructure including Linux, Kubernetes, Node.js, and more. The Linux Foundation’s methodology focuses on leveraging best practices and addressing the needs of contributors, users and solution providers to create sustainable models for open collaboration. For more information, please visit us at <a href="https://linuxfoundation.org">linuxfoundation.org</a>.
+      </p>
+
+      {{ with $extra }}
+      {{ with .title }}
+      <h3>{{ . }}</h3>
+      {{ end }}
+      {{ with .content }}
+      <p>
+        {{ . | markdownify }}
+      </p>
+      {{ end }}
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}

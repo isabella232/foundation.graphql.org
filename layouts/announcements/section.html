@@ -1,0 +1,24 @@
+{{ define "title" }}
+Announcements &ndash; GraphQL
+{{ end }}
+
+{{ define "main" }}
+{{ $announcements := where site.RegularPages "Section" "announcements" }}
+
+{{ partial "hero.html" . }}
+
+<section class="section">
+  <div class="container">
+    {{ range $announcements }}
+    {{ $date := .Date | dateFormat "January 2, 2006" }}
+    <p>{{ $date }} in Announcement</p>
+    <p>{{ .Title }}</p>
+    <p>{{ .Summary }}</p>
+
+    <a class="button is-primary" href="{{ .RelPermalink }}">
+      Read more
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

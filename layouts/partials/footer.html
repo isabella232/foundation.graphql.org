@@ -2,12 +2,18 @@
 {{ $logo    := site.Params.logos.footer }}
 {{ $logoUrl := printf "img/logos/%s" $logo | relURL }}
 {{ $copyright := site.Params.copyright | markdownify }}
-<footer class="footer has-text-centered">
+<footer class="footer has-text-weight-light">
   <div class="container">
-    <img src="{{ $logoUrl }}" class="footer-logo">
+    <div class="columns">
+      <div class="column has-text-centered is-one-quarter">
+        <img src="{{ $logoUrl }}" class="footer-logo">
+      </div>
 
-    <p class="is-size-5 is-size-6-mobile has-text-weight-medium footer-copyright">
-      &copy; {{ $year }} The GraphQL Foundation. {{ $copyright }}
-    </p>
+      <div class="column">
+        <p class="is-size-5 is-size-6-mobile footer-copyright">
+          &copy; {{ $year }} The GraphQL Foundation. {{ $copyright }}
+        </p>
+      </div>
+    </div>
   </div>
 </footer>

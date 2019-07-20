@@ -1,7 +1,7 @@
 baseURL = "https://graphqlfoundation.io"
 languageCode = "en-us"
 title = "The GraphQL Foundation"
-disableKinds = ["section", "taxonomy", "taxonomyTerm"]
+disableKinds = ["taxonomy", "taxonomyTerm"]
 enableRobotsTxt = true
 
 [params]
