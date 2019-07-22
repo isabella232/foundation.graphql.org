@@ -1,4 +1,3 @@
 ---
 title: Announcements
-type: announcements
 ---

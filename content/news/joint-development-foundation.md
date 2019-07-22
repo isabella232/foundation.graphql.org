@@ -1,11 +1,11 @@
 ---
 title: The GraphQL Foundation Announces Collaboration with the Joint Development Foundation to Drive Open Source and Open Standards
 type: announcements
+layout: news-item
 date: 2019-03-12
 author: gqlfoundation
 summary: New Members Advance GraphQL Specification to Expand GraphQL Ecosystem and Accelerate Open Source and Open Standards for API Development and Consumption
-event: Open Source Leadership Summit
-location: Half Moon Bay, Calif.
+event: OPEN SOURCE LEADERSHIP SUMMIT, Half Moon Bay, Calif.
 extra:
   title: About the Joint Development Foundation
   content: The Joint Development Foundation, which has joined the Linux Foundation Family, is an independent nonprofit organization that provides the corporate and legal infrastructure to enable groups to establish and operate standards and source code development collaborations.

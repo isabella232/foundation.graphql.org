@@ -1,0 +1,15 @@
+{{ define "title" }}
+{{ .Title }} — GraphQL
+{{ end }}
+
+{{ define "main" }}
+{{ partial "news-item/hero.html" . }}
+
+<section class="section">
+  <div class="container">
+    <div class="content is-medium doc-section">
+      {{ .Content }}
+    </div>
+  </div>
+</section>
+{{ end }}
