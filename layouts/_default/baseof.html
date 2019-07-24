@@ -3,13 +3,19 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ block "title" . }}{{ end }}</title>
-    <link rel="shortcut icon" type="image/x-icon" href="{{ "favicon.ico" | relURL }}">
+    {{ partial "favicon.html" . }}
     {{ partial "css.html" . }}
   </head>
-  <body class="has-navbar-fixed-top">
-    {{ partial "navbar.html" . }}
+  <body class="body has-navbar-fixed-top">
+    <div class="main">
+      {{ partial "navbar.html" . }}
 
-    {{ block "main" . }}
-    {{ end }}
+      {{ block "main" . }}
+      {{ end }}
+    </div>
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "javascript.html" . }}
   </body>
 </html>
