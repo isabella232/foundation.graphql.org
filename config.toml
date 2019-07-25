@@ -1,4 +1,4 @@
-baseURL = "https://graphqlfoundation.io"
+baseURL = "https://graphql.dev"
 languageCode = "en-us"
 title = "The GraphQL Foundation"
 disableKinds = ["taxonomy", "taxonomyTerm"]
