@@ -14,6 +14,7 @@ function navbarBurger() {
   });
 }
 
+
 $(function() {
   scrollAdjust();
   navbarBurger();
