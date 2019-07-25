@@ -16,4 +16,4 @@ footer = "graphql-icon.svg"
 topper = "lf-projects.png"
 
 [permalinks]
-announcements = "/announcements/:title"
+news = "/news/:year/:month/:day/:title"
