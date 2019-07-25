@@ -9,6 +9,14 @@
   <div class="container">
     <div class="content is-medium doc-section">
       {{ .Content }}
+
+      {{ with .Params.read_more }}
+      <div class="read-more">
+        <a class="button is-primary is-outlined" href="{{ . }}">
+          Read more
+        </a>
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>
