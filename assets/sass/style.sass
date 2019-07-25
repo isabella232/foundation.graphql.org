@@ -34,10 +34,21 @@ $family-sans-serif: 'Roboto', sans-serif
 
 @import "bulma/bulma"
 
+.member-logos
+  margin-top: 4rem
+
+  .member-logo
+    +desktop
+      img
+        width: 75%
+        margin-bottom: 1rem
+    +mobile
+      img
+        width: 50%
+
 .news-item
   &-header
     
-
   &-title
     font-size: 1.5rem
 
@@ -62,7 +73,8 @@ $family-sans-serif: 'Roboto', sans-serif
       color: $primary
 
 .doc-section
-  margin: 0 4rem 6rem 4rem
+  +desktop
+    margin: 0 4rem 6rem 4rem
 
 =overlay
   background-color: rgba(221,23,151,.75)
