@@ -34,6 +34,23 @@ $family-sans-serif: 'Roboto', sans-serif
 
 @import "bulma/bulma"
 
+.navbar-dropdown
+  padding: .5rem 0
+  border: none
+  background-color: $black
+
+  .navbar-item
+    color: $grey-light
+    font-size: 1rem
+    font-weight: 400
+
+    &:hover
+      color: $pink !important
+      background-color: $dark !important
+
+    &.is-active
+      color: $primary
+
 .doc-section
   margin: 0 4rem 6rem 4rem
 
