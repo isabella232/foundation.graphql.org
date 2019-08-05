@@ -10,6 +10,8 @@
   img: dgraph-color.png
 - url: https://www.elementl.com/
   img: elementl-stacked-color.svg
+- url: https://www.expedia.com
+  img: expedia-color.svg
 - url: https://www.facebook.com/
   img: facebook-color.svg
 - url: https://www.gatsbyjs.org/
@@ -36,6 +38,8 @@
   img: shopify-horizontal-color.svg
 - url: https://www.solo.io/
   img: solo-color.svg
+- url: https://www.twitter.com/
+  img: twitter-color.svg
 - url: https://gql.foundation/
   img: thicit-color.png
 
