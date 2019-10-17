@@ -6,6 +6,8 @@
     url: /faq
   - name: Code of Conduct
     url: https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md
+  - name: Contact
+    url: mailto:info@graphql.org
 - name: Landscape
   links:
   - name: GraphQL Landscape
