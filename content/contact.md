@@ -2,7 +2,7 @@
 title: Contact the GraphQL Foundation
 ---
 
-## Become a member of the GraphQL Foundation or the GraphQL Specification
+## Become a member
 
 To become a member of the [GraphQL Foundation](https://foundation.graphql.org) or the [GraphQL Specification](https://graphql.github.io/graphql-spec/), please visit our [membership page](/join).  If you have questions, you can reach out to [membership@graphql.org](mailto:membership@graphql.org).
 
