@@ -8,13 +8,13 @@ To become a member of the [GraphQL Foundation](https://foundation.graphql.org) o
 
 ---
 
-## GraphQL Foundation membership support
+## Membership support
 
 If you are already a member of the [GraphQL Foundation](https://foundation.graphql.org) and you need help with your membership, please reach out to [operations@graphql.org](mailto:operations@graphql.org).
 
 ---
 
-## GraphQL Foundation meeting logistics
+## Meeting logistics
 
 Governing board and Working Group members who need help with meeting logistics (setting up a Zoom conference, adding or changing a calendar entry, designating an alternate representative, etc.) can reach out to [operations@graphql.org](mailto:operations@graphql.org) with their request.
 
