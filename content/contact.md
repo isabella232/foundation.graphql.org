@@ -38,9 +38,7 @@ For all other inquiries, please email [info@graphql.org](mailto:info@graphql.org
 
 Our mailing address is:
 
-**GraphQL Foundation**
-
-1 Letterman Drive, Building D, Suite D4700
-
+**GraphQL Foundation**  
+1 Letterman Drive, Building D, Suite D4700  
 San Francisco, CA 94129
 
