@@ -27,19 +27,19 @@ GraphQL is being used in production by a [variety of high scale companies](https
 
 ## Member Quotes 
 
-"Open source specifications rely on strong collaboration and proper stewardship. 8base loves GraphQL and we joined the GraphQL Foundation to be involved in the specification's future with other leading-edge technology companies. Our hope is that, with our involvement, the surrounding ecosystem continues to flourish at an accelerated pace." - Albert Santalo, CEO & Founder, 8base
+"Open source specifications rely on strong collaboration and proper stewardship. 8base loves GraphQL and we joined the GraphQL Foundation to be involved in the specification's future with other leading-edge technology companies. Our hope is that, with our involvement, the surrounding ecosystem continues to flourish at an accelerated pace." - *Albert Santalo, CEO & Founder, 8base*
  
-"It's truly surreal to see GraphQL grow from its conception to spread throughout the entire technology industry. The Foundation provides the infrastructure to make this a true industry standard, backed by stable, trusted, company-neutral governance." - Nick Schrock, Founder, Elementl
+"It's truly surreal to see GraphQL grow from its conception to spread throughout the entire technology industry. The Foundation provides the infrastructure to make this a true industry standard, backed by stable, trusted, company-neutral governance." - *Nick Schrock, Founder, Elementl*
 
-"At Expedia Group, GraphQL is helping us build better experiences for our travelers. As a rapidly adopted technology in software development, we believe an open and community supported GraphQL specification and ecosystem is critical to its continued success." - Trevor Livingston, Principal Architect, Expedia Group (VRBO)
+"At Expedia Group, GraphQL is helping us build better experiences for our travelers. As a rapidly adopted technology in software development, we believe an open and community supported GraphQL specification and ecosystem is critical to its continued success." - *Trevor Livingston, Principal Architect, Expedia Group (VRBO)*
 
-"At Fauna, we have seen first-hand the productivity and architectural benefits GraphQL offers developers. We believe that an open ecosystem and shared specification are a benefit to all. We're excited to contribute to the GraphQL community and collaborate on its continued innovation." - Matt Freels, CTO, Fauna, Inc. 
+"At Fauna, we have seen first-hand the productivity and architectural benefits GraphQL offers developers. We believe that an open ecosystem and shared specification are a benefit to all. We're excited to contribute to the GraphQL community and collaborate on its continued innovation." - *Matt Freels, CTO, Fauna, Inc.*
  
-"We are thrilled to be a part of the GraphQL Foundation. We see GraphQL as one of the most important emerging API technologies and strongly believe in its bright future! We're excited to continue investing in the GraphQL ecosystem and community with tools, events and educational content." - Johannes Schickling, CEO, Prisma
+"We are thrilled to be a part of the GraphQL Foundation. We see GraphQL as one of the most important emerging API technologies and strongly believe in its bright future! We're excited to continue investing in the GraphQL ecosystem and community with tools, events and educational content." - *Johannes Schickling, CEO, Prisma*
  
-"We're deliberate about the technology we build and adopt. That's why we're excited to double-down on our investment in GraphQL as a foundational technology at Shopify. We believe GraphQL provides great tools for our internal teams and app developers to extend our platform and create faster merchant experiences." - Jean-Michel Lemieux, CTO, Shopify
+"We're deliberate about the technology we build and adopt. That's why we're excited to double-down on our investment in GraphQL as a foundational technology at Shopify. We believe GraphQL provides great tools for our internal teams and app developers to extend our platform and create faster merchant experiences." - *Jean-Michel Lemieux, CTO, Shopify*
  
-"GraphQL plays a key part in helping us serve the public conversation on Twitter by enabling faster product iteration across our teams. As GraphQL is gaining tremendous adoption as one of the best protocols for remote retrieval of large object graphs, we are very excited to support the GraphQL Foundation." - Anna Sulkina Engineering Director, Core Services Group, Twitter
+"GraphQL plays a key part in helping us serve the public conversation on Twitter by enabling faster product iteration across our teams. As GraphQL is gaining tremendous adoption as one of the best protocols for remote retrieval of large object graphs, we are very excited to support the GraphQL Foundation." - *Anna Sulkina Engineering Director, Core Services Group, Twitter*
 
 ## About the GraphQL Foundation
 
@@ -49,7 +49,7 @@ The GraphQL Foundation is an open, neutral organization that provides oversight 
 
 The Linux Foundation is the organization of choice for the world’s top developers and companies to build ecosystems that accelerate open technology development and industry adoption. Together with the worldwide open source community, it is solving the hardest technology problems by creating the largest shared technology investment in history. Founded in 2000, The Linux Foundation today provides tools, training and events to scale any open source project, which together deliver an economic impact not achievable by any one company. More information can be found at www.linuxfoundation.org.
  
-# # #
+\# \# \#
 
 *The Linux Foundation has registered trademarks and uses trademarks. For a list of trademarks of The Linux Foundation, please see our trademark usage page: [https://www.linuxfoundation.org/trademark-usage](https://www.linuxfoundation.org/trademark-usage). Linux is a registered trademark of Linus Torvalds.*
 
