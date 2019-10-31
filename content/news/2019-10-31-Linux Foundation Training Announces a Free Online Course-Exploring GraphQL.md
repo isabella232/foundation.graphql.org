@@ -4,11 +4,11 @@ type: announcements
 layout: news-item
 date: 2019-10-31
 author: gqlfoundation
-summary: 8base, Elementl, Expedia Group, Fauna, Prisma, Shopify and Twitter Sign On to Support the Growing Ecosystem
+summary: Linux Foundation Training announces a free online course exploring GraphQL
 event: SAN FRANCISCO
 extra:
   title: GraphQL Foundation Launches Landscape and Welcomes New Members
-  content: Enrollment is now open for a new, free, course – Exploring GraphQL: A Query Language for APIs. This course is offered through edX, the trusted platform for learning.
+  content: "Enrollment is now open for a new free course – Exploring GraphQL: A Query Language for APIs. This course is offered through edX, the trusted platform for learning."
 
 ---
 
