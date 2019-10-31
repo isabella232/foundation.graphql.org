@@ -1,5 +1,5 @@
 ---
-title: Linux Foundation Training Announces a Free Online Course-Exploring GraphQL: A Query Language for APIs
+title: "Linux Foundation Training Announces a Free Online Course-Exploring GraphQL: A Query Language for APIs"
 type: announcements
 layout: news-item
 date: 2019-10-31
