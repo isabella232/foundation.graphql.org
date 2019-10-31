@@ -38,7 +38,7 @@ Linux is a registered trademark of Linus Torvalds.
 
 ### Media Contact:
 
-Clyde Seepersad
-The Linux Foundation
-404-964-6973
-cseepersad@linuxfoundation.org
+Clyde Seepersad  
+The Linux Foundation  
+404-964-6973  
+cseepersad@linuxfoundation.org  
