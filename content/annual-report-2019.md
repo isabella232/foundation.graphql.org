@@ -12,7 +12,7 @@ Comments and feedback are welcome at [info@graphql.org](mailto:info@graphql.org)
 > 
 > – _**Lee Byron**, Executive Director, GraphQL Foundation, and GraphQL Co-Creator_
 
-{{< linked-h2 "A BUSY YEAR FOR GRAPHQL" toc >}}
+## A BUSY YEAR FOR GRAPHQL {#toc}
 
 * [Who we are](#who-we-are)
 * [Cultivating Projects](#cultivating-projects)
@@ -33,14 +33,12 @@ Comments and feedback are welcome at [info@graphql.org](mailto:info@graphql.org)
 * [Devstats](#devstats)
 * [A Look Ahead to 2020](#looking-ahead)
 
-<a name="who-we-are"></a>
-
-{{< linked-h2 "WHO WE ARE" who-we-are >}}
+## WHO WE ARE
 
 The [GraphQL Foundation](https://foundation.graphql.org) is a neutral foundation created by the founders of [GraphQL](https://graphql.org), along with many organizations who are using GraphQL in production. The GraphQL Foundation encourages contributions, stewardship, and a shared investment by providing vendor-neutral events, documentation, tools, and support for GraphQL.
 
 
-{{< linked-h2 "CULTIVATING PROJECTS" cultivating-projects >}}
+## CULTIVATING PROJECTS
 
 The GraphQL Foundation hosts the [GraphQL specification](https://github.com/graphql/graphql-spec), [GraphQL.js](https://github.com/graphql/graphql-js) reference implementation, [DataLoader](https://github.com/graphql/dataloader) library, and [GraphiQL](https://github.com/graphql/graphiql) developer tool.
 
@@ -48,7 +46,7 @@ GraphQL is a next­-generation API technology developed internally by Facebook i
 
 The GraphQL Foundation also funded community member Ivan Goncharov to work through a variety of GraphQL project issues, from backlog cleanup and more.
 
-{{< linked-h2 "GROWING MEMBERSHIP" growing-membership>}}
+## GROWING MEMBERSHIP
 
 The GraphQL Foundation [launched](https://foundation.graphql.org/news/2019/03/12/the-graphql-foundation-announces-collaboration-with-the-joint-development-foundation-to-drive-open-source-and-open-standards/) with 10 [members](https://foundation.graphql.org/members/) and we wrapped the year with 21 members in total, including Apollo, AWS, Butterfly Network, Dgraph Labs, Facebook, Gatsby, GraphZen, Hasura, IBM, Intuit, Neo4j, Novvum, Pipefy, Salsify, Solo.io and more. [Join](https://foundation.graphql.org/join/) your industry peers in helping to shape the GraphQL ecosystem.
 
@@ -56,31 +54,31 @@ The GraphQL Foundation [launched](https://foundation.graphql.org/news/2019/03/12
 
 Organizations interested in becoming members of the GraphQL Foundation or the GraphQL Specification can learn more on our [new member page](https://foundation.graphql.org/join). If you have questions about membership, please send an email to membership@graphql.org.
 
-{{< linked-h2 "GROWING THE GRAPHQL END USER COMMUNITY" growing-the-graphql-end-user-community >}}
+## GROWING THE GRAPHQL END USER COMMUNITY
 
 We offer multiple opportunities for end users to contribute and have their voices heard. Companies that use GraphQL technologies internally, but do not sell any GraphQL services externally, are eligible to join the end user community.
 
 Our end user community is growing and we finished 2019 with 83 top companies and startups that are committed to accelerating the adoption of GraphQL and improving the developer experience. Please email us for more information at membership@graphql.org.
 
-{{< linked-h2 "HOW DO I GET INVOLVED?" how-do-i-get-involved >}}
+## HOW DO I GET INVOLVED?
 
 GraphQL is first and foremost an open source project, and developers can contribute to the project at [https://github.com/graphql](https://github.com/graphql).  Organizations interested in becoming members of the GraphQL Foundation or participating in development of the GraphQL Specification can learn more on our [new member page](https://foundation.graphql.org/join). If you have questions about membership, please send an email to [membership@graphql.org](mailto:membership@graphql.org).
 
-{{< linked-h2 "EVENTS 2019" events-2019 >}}
+## EVENTS 2019
 
 In addition to multiple community events, GraphQL Summit 2019 was held in San Francisco, and GraphQL Asia 2019 was held in Bangalore.
 
-{{< linked-h3 "ATTENDEE FEEDBACK" attendee-feedback >}}
+### ATTENDEE FEEDBACK
 
 {{< tweet 1189958449167101952 >}}
 {{< tweet 1189626086562254849 >}}
 {{< tweet 1192957444965584896 >}}
 
-{{< linked-h2 "COMMUNITY UPDATES" community-updates >}}
+## COMMUNITY UPDATES
 
 The GraphQL community is fortunate to have an active and engaged group of companies participating in the GraphQL Foundation.
 
-{{< linked-h3 "WHY OUR MEMBERS USE GRAPHQL" why-do-our-members-use-graphql >}}
+### WHY OUR MEMBERS USE GRAPHQL
 
 {{< figure src="https://raw.githubusercontent.com/graphql/graphql-landscape/master/hosted_logos/apollo-graphql.svg?sanitize=true" width="200" alt="Apollo GraphQL logo" >}}
 
@@ -116,7 +114,7 @@ The GraphQL community is fortunate to have an active and engaged group of compan
 
 ---
 
-{{< linked-h3 "HOW OUR MEMBERS ARE USING GRAPHQL" members-using-graphql >}}
+### HOW OUR MEMBERS ARE USING GRAPHQL
 
 {{< figure src="https://raw.githubusercontent.com/graphql/graphql-landscape/master/hosted_logos/expedia-group.svg?sanitize=true" width="200" alt="Expedia Group logo" >}} 
 
@@ -136,7 +134,7 @@ The GraphQL community is fortunate to have an active and engaged group of compan
 
 ---
 
-{{< linked-h3 "MEMBER CONTRIBUTIONS TO THE GRAPHQL ECOSYSTEM" member-contributions >}}
+### MEMBER CONTRIBUTIONS TO THE GRAPHQL ECOSYSTEM
 
 Our members have been active and engaged participants in the GraphQL ecosystem.  Here are some of the ways in which our ecosystem hsa been enriched through their participation.
 
@@ -168,7 +166,7 @@ Our members have been active and engaged participants in the GraphQL ecosystem. 
 
 ---
 
-{{< linked-h3 "PUBLICATIONS FROM OUR MEMBERS" member-publications >}}
+### PUBLICATIONS FROM OUR MEMBERS
 
 {{< figure src="https://raw.githubusercontent.com/graphql/graphql-landscape/master/hosted_logos/apollo-graphql.svg?sanitize=true" width="200" alt="Apollo GraphQL logo" >}}
 
@@ -199,7 +197,7 @@ Our members have been active and engaged participants in the GraphQL ecosystem. 
 
 --- 
 
-{{< linked-h3 "TALKS, PAPERS, AND DISCUSSIONS ON GRAPHQL" talks-papers-discussions >}}
+### TALKS, PAPERS, AND DISCUSSIONS ON GRAPHQL
 
 {{< figure src="https://raw.githubusercontent.com/graphql/graphql-landscape/master/hosted_logos/apollo-graphql.svg?sanitize=true" width="200" alt="Apollo GraphQL logo" >}}
 
@@ -231,7 +229,7 @@ Our members have been active and engaged participants in the GraphQL ecosystem. 
 * Demonstrated GraphQL API Management in IBM API Connect and IBM DataPower® Gateway enabling determination of GraphQL query characteristics, advanced threat protection, customized rate limiting, and API plan configuration
 * [Conducted IBM Developer Meetups where GraphQL work was highlighted in talks and technical demonstrations](https://www.meetup.com/ibmcodenyc/events/266535427/)
 
-{{< linked-h2 "TRAINING" training >}}
+## TRAINING
 
 The GraphQL Foundation is proud to offer a new, free course – [Exploring GraphQL: A Query Language for APIs](https://www.edx.org/course/introduction-to-graphql) – through [edX](https://www.edx.org/) which we have had thousands already sign up for.
 
@@ -239,11 +237,11 @@ If you are a programmer, this course will help you gain the skills you need to g
 
 If you are nontechnical, this course will help you communicate with developers and participate in conversations about GraphQL, and understand when and why to use GraphQL for a project.
 
-{{< linked-h2 "COMMUNITY ENGAGEMENT" community-engagement >}}
+## COMMUNITY ENGAGEMENT
 
 Want to start a meetup? Drop us a line, we’d love to hear your idea: info@graphql.org. 
 
-{{< linked-h2 "GRAPHQL LANDSCAPE" graphql-landscape >}}
+## GRAPHQL LANDSCAPE
 
 The [GraphQL Interactive Landscape](https://landscape.graphql.org/) was recently published by the GraphQL Foundation.
 
@@ -253,11 +251,11 @@ What is an interactive landscape? The concept started when the CNCF began the pr
 
 The landscape is open source, and contributions from the community are welcomed. You can find guidelines for updating the landscape at: [https://github.com/graphql/graphql-landscape](https://github.com/graphql/graphql-landscape). 
 
-{{< linked-h2 "DEVSTATS" devstats >}}
+## DEVSTATS
 
 The [DevStats](https://github.com/cncf/devstats) tool, which is open source, downloads data representing every public GitHub action across GraphQL Foundation projects and stores it in a queryable [Postgres](https://www.postgresql.org/) database. DevStats downloads updated data every hour and you can check out the tool here: [https://devstats.graphql.org](https://devstats.graphql.org/)
 
-{{< linked-h2 "A LOOK AHEAD TO 2020" looking-ahead >}}
+## A LOOK AHEAD TO 2020
 
 As the Executive Director of the GraphQL project, I hope I can speak for the whole community when I say we are looking forward to another productive year of GraphQL development. We are putting the final touches on the GraphQL 2020 spec release, and continue to make great progress developing new features, stabilizing existing ones, and exploring beyond core GraphQL.
 
