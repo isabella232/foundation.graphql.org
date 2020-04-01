@@ -7,7 +7,7 @@ This site is built using [Hugo](https://gohugo.io) and hosted on [Netlify](https
 To run the site locally, you must first set it up:
 
 1. [install Hugo](https://gohugo.io/getting-started/installing/)
-1. Download [Bulma](https://bulma.io), extract the zip, rename it to `bulma`, and move it into the base directory
+1. Install [Yarn](https://classic.yarnpkg.com/en/docs/getting-started), and run `yarn` to install dependencies
 
 Now you can launch a development web server:
 
