@@ -3,13 +3,23 @@
 {{ end }}
 
 {{ define "main" }}
+{{ $banner := .Params.banner }}
+{{ $more   := .Params.read_more }}
+{{ with $banner }}
+{{ $src := printf "img/news/%s" .src | relURL }}
+<div class="container">
+  <img src="{{ $src }}"{{ with .alt }} alt="{{ . }}"{{ end }}>
+</div>
+{{ end }}
+
 {{ partial "news-item/hero.html" . }}
+
 <section class="section">
   <div class="container">
     <div class="content is-medium has-extra-bottom-margin news-item-single">
       {{ .Content }}
 
-      {{ with .Params.read_more }}
+      {{ with $more }}
       <div class="read-more">
         <a class="button is-primary is-outlined" href="{{ . }}">
           Read more
