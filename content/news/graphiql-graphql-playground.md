@@ -6,9 +6,10 @@ date: 2020-04-03
 author: Rikki Schulte, Jason Kuhrt
 summary: Playground and GraphiQL are joining forces to focus on a single codebase
 event: SAN FRANCISCO
+banner:
+  src: playground-transition-banner.png
+  alt: "Banner showing the Prisma and GraphQL Foundation logos with a :handshake: emoji between them"
 ---
-
-![Banner showing the Prisma and GraphQL Foundation logos with a :handshake: emoji between them](/img/articles/playground/playground-transition-banner.png)
 
 ## GraphiQL's beginnings
 

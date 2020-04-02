@@ -4,7 +4,8 @@
 {{ $type   := .Params.type }}
 {{ $types  := (dict "announcements" "Announcement" "in-the-news" "In The News") }}
 {{ $dType  := index $types $type }}
-<section class="hero is-medium">
+{{ $banner := .Params.banner }}
+<section class="hero{{ if not $banner }} is-medium{{ end }}">
   <div class="hero-body">
     <div class="container">
       <p class="title is-size-1 is-size-2-mobile has-text-weight-light">
