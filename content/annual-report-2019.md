@@ -50,7 +50,7 @@ The GraphQL Foundation also funded community member Ivan Goncharov to work throu
 
 The GraphQL Foundation [launched](https://foundation.graphql.org/news/2019/03/12/the-graphql-foundation-announces-collaboration-with-the-joint-development-foundation-to-drive-open-source-and-open-standards/) with 10 [members](https://foundation.graphql.org/members/) and we wrapped the year with 21 members in total, including Apollo, AWS, Butterfly Network, Dgraph Labs, Facebook, Gatsby, GraphZen, Hasura, IBM, Intuit, Neo4j, Novvum, Pipefy, Salsify, Solo.io and more. [Join](https://foundation.graphql.org/join/) your industry peers in helping to shape the GraphQL ecosystem.
 
-{{< figure src="/img/annual-report/annual-report-1.png" alt="Lee presenting">}}
+{{< figure src="/img/news/annual-report-1.png" alt="Lee presenting">}}
 
 Organizations interested in becoming members of the GraphQL Foundation or the GraphQL Specification can learn more on our [new member page](https://foundation.graphql.org/join). If you have questions about membership, please send an email to membership@graphql.org.
 
