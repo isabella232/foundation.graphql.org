@@ -4,22 +4,16 @@
 {{ $type   := .Params.type }}
 {{ $types  := (dict "announcements" "Announcement" "in-the-news" "In The News") }}
 {{ $dType  := index $types $type }}
-<section class="hero">
+<section class="hero is-medium">
   <div class="hero-body">
     <div class="container">
       <p class="title is-size-1 is-size-2-mobile has-text-weight-light">
         {{ $title }}
       </p>
-    </div>
-  </div>
 
-  <div class="hero-foot">
-    <div class="container">
       <p class="has-text-weight-light">
-        By {{ $author }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ $date }}&nbsp;&nbsp;|&nbsp;&nbsp;{{ $dType }}
+        By {{ $author }}&nbsp;&nbsp;<strong>|</strong>&nbsp;&nbsp;{{ $date }}&nbsp;&nbsp;<strong>|</strong>&nbsp;&nbsp;{{ $dType }}
       </p>
-
-      <hr />
     </div>
   </div>
 </section>
