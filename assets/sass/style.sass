@@ -80,6 +80,21 @@ $colors: mergeColorMaps(("secondary": ($secondary, $white)), $colors)
   h1, h2, h3, h4, h5, h6
     font-weight: $weight-normal
 
+.hashlink
+  @extend .icon
+  font-size: inherit
+  height: 100%
+  width: auto
+  color: $primary
+
+.headline-hash
+  display: none
+
+@for $i from 1 through 6
+  h#{$i}
+    &:hover > .headline-hash
+      display: inline
+
 .has-gutter
   margin-bottom: 8rem
 
