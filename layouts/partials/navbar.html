@@ -20,16 +20,32 @@
     <div class="navbar-menu" id="navbar-menu" :class="{ 'is-active': open }">
       <div class="navbar-end">
         {{ range $nav }}
+        {{ $isExternal := hasPrefix .URL "http" }}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link is-size-5 has-text-weight-light is-arrowless"{{ with .URL }} href="{{ . }}"{{ end }}>
+          <a class="navbar-link has-text-weight-medium is-size-5 is-arrowless"{{ with .URL }} href="{{ . }}"{{ end }}>
             {{ .Name }}
+            {{ if $isExternal }}
+            <sup>
+              <span class="icon has-text-primary">
+                <i class="fas fa-xs fa-external-link-alt"></i>
+              </span>
+            </sup>
+            {{ end }}
           </a>
 
           {{ if .HasChildren }}
           <div class="navbar-dropdown is-radiusless">
             {{ range .Children }}
+            {{ $isExternal := hasPrefix .URL "http" }}
             <a class="navbar-item" href="{{ .URL }}">
               {{ .Name }}
+              {{ if $isExternal }}
+              <sup>
+                <span class="icon has-text-primary">
+                  <i class="fas fa-xs fa-external-link-alt"></i>
+                </span>
+              </sup>
+              {{ end }}
             </a>
             {{ end }}
           </div>
