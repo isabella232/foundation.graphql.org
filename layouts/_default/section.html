@@ -6,34 +6,39 @@
 {{ $currentSection := .CurrentSection.Title }}
 {{ $itemType       := $currentSection | urlize }}
 {{ $isRoot         := eq $currentSection .FirstSection.Title }}
-{{ $items          := cond $isRoot (where site.RegularPages "Section" "news") (where site.RegularPages ".Params.type" $itemType) }}
+{{ $allNews        := where site.RegularPages "Section" "news" }}
+{{ $items          := cond $isRoot $allNews (where site.RegularPages ".Params.type" $itemType) }}
 
 {{ partial "hero.html" . }}
 
 <section class="section">
   <div class="container">
-    <div class="content doc-section">
+    <div class="columns is-multiline is-variable is-4">
       {{ range $items }}
-      {{ $date := .Date | dateFormat "January 2, 2006" }}
+      {{ $date     := .Date | dateFormat "January 2, 2006" }}
       {{ $itemType := .Params.type }}
-      {{ $display := (dict "announcements" "Announcement" "in-the-news" "In The News") }}
-      {{ $type := index $display $itemType }}
-      <div class="news-item">
-        <p class="news-item-header has-text-weight-light">
-          {{ $date }} in {{ $type }}
-        </p>
+      {{ $display  := (dict "announcements" "Announcements" "in-the-news" "In the News") }}
+      {{ $type     := index $display $itemType }}
+      <div class="column is-one-third">
+        <div class="card">
+          <div class="card-content">
+            <p class="has-bottom-margin has-text-weight-medium">
+              {{ $date }} | {{ $type }}
+            </p>
 
-        <p class="news-item-title has-text-weight-light" href="{{ .RelPermalink }}">
-          {{ .Title }}
-        </p>
+            <p class="title is-size-4 is-size-5-mobile">
+              {{ .Title }}
+            </p>
 
-        <p class="news-item-summary">
-          {{ .Summary }}...
-        </p>
+            <p>
+              {{ .Summary | first 250 }}...
+            </p>
 
-        <a class="button is-small is-primary is-outlined" href="{{ .RelPermalink }}">
-          Read more
-        </a>
+            <a class="button is-small is-primary is-outlined has-top-margin" href="{{ .RelPermalink }}">
+              Read more
+            </a>
+          </div>
+        </div>
       </div>
       {{ end }}
     </div>

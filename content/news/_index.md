@@ -1,6 +1,3 @@
 ---
-title: News
+title: GraphQL Foundation News
 ---
-
-Here is some news.
-

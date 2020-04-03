@@ -1,3 +1,3 @@
 ---
-title: In The News
+title: In the News
 ---
