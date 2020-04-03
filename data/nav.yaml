@@ -1,17 +1,3 @@
-- name: About
-  links:
-  - name: Charter
-    url: https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md
-  - name: FAQ
-    url: /faq
-  - name: Code of Conduct
-    url: https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md
-  - name: Contact
-    url: /contact
-- name: Landscape
-  links:
-  - name: GraphQL Landscape
-    url: https://landscape.graphql.org
 - name: News
   links:
   - name: All News

@@ -1,5 +1,5 @@
 ---
-title: "Web Based GraphQL IDEs for the win: How & Why Playground & GraphiQL are joining forces"
+title: "Web-based GraphQL IDEs for the win: How & Why Playground & GraphiQL are joining forces"
 type: announcements
 layout: news-item
 date: 2020-04-03

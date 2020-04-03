@@ -8,11 +8,11 @@
 <section class="hero{{ if not $banner }} is-medium{{ end }}">
   <div class="hero-body">
     <div class="container">
-      <p class="title is-size-1 is-size-2-mobile has-text-weight-light">
+      <p class="title is-size-1 is-size-2-mobile has-text-weight-light{{ if $author }} is-spaced{{ end }}">
         {{ $title }}
       </p>
 
-      <p class="has-text-weight-light">
+      <p class="subtitle is-size-5 is-size-6-mobile has-text-weight-light">
         By {{ $author }}&nbsp;&nbsp;<strong>|</strong>&nbsp;&nbsp;{{ $date }}&nbsp;&nbsp;<strong>|</strong>&nbsp;&nbsp;{{ $dType }}
       </p>
     </div>

@@ -17,3 +17,93 @@ topper = "lf-projects.png"
 
 [permalinks]
 news = "/news/:year/:month/:day/:title"
+
+[[menu.nav]]
+name = "About"
+identifier = "about"
+weight = 1
+
+[[menu.nav]]
+name = "Charter"
+parent = "about"
+url = "https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md"
+weight = 1
+
+[[menu.nav]]
+name = "FAQ"
+parent = "about"
+url = "/faq"
+weight = 2
+
+[[menu.nav]]
+name = "Code of Conduct"
+parent = "about"
+url = "https://github.com/graphql/foundation/blob/master/CODE-OF-CONDUCT.md"
+weight = 3
+
+[[menu.nav]]
+name = "Contact"
+parent = "about"
+url = "/contact"
+weight = 4
+
+[[menu.nav]]
+name = "Landscape"
+url = "https://landscape.graphql.org"
+weight = 2
+
+[[menu.nav]]
+name = "News"
+identifier = "news"
+weight = 3
+
+[[menu.nav]]
+name = "All News"
+parent = "news"
+url = "/news"
+weight = 1
+
+[[menu.nav]]
+name = "Announcements"
+parent = "news"
+url = "/news/announcements"
+weight = 2
+
+[[menu.nav]]
+name = "In the News"
+parent = "news"
+url = "/news/in-the-news"
+weight = 3
+
+[[menu.nav]]
+name = "Projects"
+url = "/projects"
+weight = 4
+
+[[menu.nav]]
+name = "Members"
+identifier = "members"
+weight = 5
+
+[[menu.nav]]
+name = "Our Members"
+parent = "members"
+url = "/members"
+weight = 1
+
+[[menu.nav]]
+name = "Join"
+parent = "members"
+url = "/join"
+weight = 2
+
+[[menu.nav]]
+name = "Annual Reports"
+identifier = "reports"
+weight = 6
+
+[[menu.nav]]
+name = "2019 Annual Report"
+parent = "reports"
+url = "/reports/annual-report-2019"
+weight = 1
