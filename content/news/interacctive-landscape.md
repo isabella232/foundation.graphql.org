@@ -43,7 +43,7 @@ GraphQL is being used in production by a [variety of high scale companies](https
 
 ## About the GraphQL Foundation
 
-The GraphQL Foundation is an open, neutral organization that provides oversight of funding,  operations, and marketing resources for the GraphQL community to enable widespread adoption and help accelerate development of the broader ecosystem. The [GraphQL specification](https://github.com/graphql/graphql-spec), [GraphQL.js](https://github.com/graphql/graphql-js) reference implementation, [DataLoader](https://github.com/graphql/dataloader) library, and [GraphiQL](https://github.com/graphql/graphiql) developer tool are technical projects supported by the GraphQL Foundation. More details can be found at [https://foundation.graphql.org/](/).
+The GraphQL Foundation is an open, neutral organization that provides oversight of funding,  operations, and marketing resources for the GraphQL community to enable widespread adoption and help accelerate development of the broader ecosystem. The [GraphQL specification](https://github.com/graphql/graphql-spec), [GraphQL.js](https://github.com/graphql/graphql-js) reference implementation, [DataLoader](https://github.com/graphql/dataloader) library, and [GraphiQL](https://github.com/graphql/graphiql) developer tool are technical projects supported by the GraphQL Foundation. More details can be found at [https://foundation.graphql.org](/).
 
 ## About The Linux Foundation
 

@@ -12,7 +12,7 @@ extra:
 
 ---
 
-The GraphQL Foundation recently turned 1 year old and is happy to announce its [first annual report](https://foundation.graphql.org/annual-report-2019/)!
+The GraphQL Foundation recently turned 1 year old and is happy to announce its [first annual report](/reports/annual-report-2019)!
 
 The annual report details the accomplishments of the organization in its first year, along with a forward looking statement for 2020 and beyond from Lee Byron, the GraphQL Foundation Executive Director:
 

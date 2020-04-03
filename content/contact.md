@@ -4,13 +4,13 @@ title: Contact the GraphQL Foundation
 
 ## Become a member
 
-To become a member of the [GraphQL Foundation](https://foundation.graphql.org) or the [GraphQL Specification](https://graphql.github.io/graphql-spec/), please visit our [membership page](/join).  If you have questions, you can reach out to [membership@graphql.org](mailto:membership@graphql.org).
+To become a member of the [GraphQL Foundation](/) or the [GraphQL Specification](https://graphql.github.io/graphql-spec/), please visit our [membership page](/join).  If you have questions, you can reach out to [membership@graphql.org](mailto:membership@graphql.org).
 
 ---
 
 ## Membership support
 
-If you are already a member of the [GraphQL Foundation](https://foundation.graphql.org) and you need help with your membership, please reach out to [operations@graphql.org](mailto:operations@graphql.org).
+If you are already a member of the [GraphQL Foundation](/) and you need help with your membership, please reach out to [operations@graphql.org](mailto:operations@graphql.org).
 
 ---
 
