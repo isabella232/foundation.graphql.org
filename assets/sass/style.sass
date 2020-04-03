@@ -8,13 +8,13 @@
 $pink: rgb(221,23,151)
 $off-black: #181e26
 $purple: #2a3745
+$overlay-color: rgba(221,23,151,.75)
 
 @import "bulma/sass/utilities/initial-variables"
 @import "bulma/sass/utilities/functions"
 
 $primary: $pink
 $secondary: $off-black
-
 $dark: $off-black
 $link: $primary
 
@@ -22,7 +22,7 @@ $navbar-height: 4.25rem
 $navbar-item-img-max-height: $navbar-height * 0.6
 $navbar-burger-color: $primary
 $navbar-dropdown-border-top: 1px solid $grey-light
-$section-padding: 3rem 1.5rem
+$section-padding: 4.5rem 1.5rem
 $family-sans-serif: 'Roboto', sans-serif
 $code: $primary
 $code-background: $white-bis
@@ -84,13 +84,7 @@ $colors: mergeColorMaps(("secondary": ($secondary, $white)), $colors)
   margin-bottom: 8rem
 
 =overlay
-  background-color: rgba(221,23,151,.75)
-
-hr.home
-  height: 1px
-  margin: 0 auto
-  background-color: $primary
-  width: 50%
+  background-color: $overlay-color
 
 .footer
   background-color: $secondary
