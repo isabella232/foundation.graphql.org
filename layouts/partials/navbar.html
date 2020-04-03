@@ -22,7 +22,7 @@
         {{ range $nav }}
         {{ $isExternal := hasPrefix .URL "http" }}
         <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link has-text-weight-medium is-size-5 is-arrowless"{{ with .URL }} href="{{ . }}"{{ end }}>
+          <a class="navbar-link has-text-weight-medium is-size-5 is-arrowless"{{ with .URL }} href="{{ . }}"{{ end }}{{ if $isExternal }} target="_blank"{{ end }}>
             {{ .Name }}
             {{ if $isExternal }}
             <sup>
@@ -37,7 +37,7 @@
           <div class="navbar-dropdown is-radiusless">
             {{ range .Children }}
             {{ $isExternal := hasPrefix .URL "http" }}
-            <a class="navbar-item" href="{{ .URL }}">
+            <a class="navbar-item" href="{{ .URL }}"{{ if $isExternal }} target="_blank"{{ end }}>
               {{ .Name }}
               {{ if $isExternal }}
               <sup>
