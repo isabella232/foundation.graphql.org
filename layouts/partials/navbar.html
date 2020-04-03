@@ -3,7 +3,7 @@
 {{ $logoUrl    := printf "img/logos/%s" $logo | relURL }}
 {{ $nav        := site.Menus.nav }}
 {{ $currentUrl := .RelPermalink }}
-<nav class="navbar is-black is-fixed-top" x-data="{ open: false }">
+<nav class="navbar is-secondary is-fixed-top" x-data="{ open: false }">
   <div class="container">
     <div class="navbar-brand">
       <a class="navbar-item" href="{{ $home }}">

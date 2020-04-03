@@ -13,6 +13,7 @@ $purple: #2a3745
 @import "bulma/sass/utilities/functions"
 
 $primary: $pink
+$secondary: $off-black
 
 $dark: $off-black
 $link: $primary
@@ -26,6 +27,10 @@ $family-sans-serif: 'Roboto', sans-serif
 $code: $primary
 $code-background: $white-bis
 
+@import "bulma/sass/utilities/derived-variables"
+
+$colors: mergeColorMaps(("secondary": ($secondary, $white)), $colors)
+
 .body
   display: flex
   flex-direction: column
@@ -33,8 +38,6 @@ $code-background: $white-bis
 
   .main
     flex: 1
-
-@import "bulma/sass/utilities/derived-variables"
 
 @import "bulma/bulma"
 
