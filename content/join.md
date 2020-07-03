@@ -22,7 +22,7 @@ Membership in the GraphQL Specification is free, and is required for all who par
 {{< cards >}}
 {{< card >}}
 
-### [Corporate specification membership](https://corporate-spec-member.graphql.org)
+### [Corporate specification membership](https://corporate-spec-membership.graphql.org)
 
 There are no fees to participate in GraphQL Specification development.
 
@@ -30,12 +30,12 @@ There are no fees to participate in GraphQL Specification development.
 
 If you are planning to work on GraphQL for your employer, please ask an appropriate person to complete the corporate GraphQL Specification Membership application. ([preview](/files/GraphQL_Specification-Corporate-Preview.pdf))
 
-To join, please [complete the corporate membership application](https://corporate-spec-member.graphql.org).
+To join, please [complete the corporate membership application](https://corporate-spec-membership.graphql.org).
 
 {{< /card >}}
 {{< card >}}
 
-### [Individual specification membership](https://individual-spec-member.graphql.org)
+### [Individual specification membership](https://individual-spec-membership.graphql.org)
 
 There are no fees to participate in GraphQL Specification development.
 
@@ -43,7 +43,7 @@ There are no fees to participate in GraphQL Specification development.
 
 If you are planning to work on GraphQL as an individual or if you are a student, please complete the individual GraphQL Specification Membership application. ([preview](/files/GraphQL_Specification-Individual-Preview.pdf))
 
-To join, please [complete the individual membership application](https://individual-spec-member.graphql.org).
+To join, please [complete the individual membership application](https://individual-spec-membership.graphql.org).
 
 {{< /card >}}
 {{< /cards >}}
@@ -56,7 +56,7 @@ To join, please [complete the individual membership application](https://individ
 
 The GraphQL Foundation is a member-supported, non-profit organization whose mission is to support the long-term health and viability of the [GraphQL ecosystem](https://graphql.org). The GraphQL Foundation is hosted by [The Linux Foundation](https://linuxfoundation.org), the 501(c)6 non-profit home of Linux and many other open source collaborative projects. 
 
-The GraphQL Foundation is entirely supported by [end-users, vendors, and consultants](/members) who recognize the importance of ensuring the long-term viability of neutral, collaborative development. The GraphQL Foundation is funded through participation fees, which are allocated by the governing board in ways that benefit the development community.
+The GraphQL Foundation is entirely supported by [end-users, vendors, service providers, and consultants](/members) who recognize the importance of ensuring the long-term viability of neutral, collaborative development. The GraphQL Foundation is funded through participation fees, which are allocated by the governing board in ways that benefit the development community.
 
 ### Benefits of membership
 
