@@ -82,8 +82,8 @@ Organization size | Cost
 :-----------------|:----
 General (5,000+) | $20,000
 General (2,000 to 4,999) | $10,000
-General (500 to 1,999) | $5,000
-General (Up to 499) | $2,000
+General (50 to 1,999) | $5,000
+General (Up to 49) | $2,000
 
 To join, please complete the [membership application](https://join.graphql.org).
 
