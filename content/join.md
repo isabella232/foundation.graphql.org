@@ -97,9 +97,9 @@ Organization size | Cost
 Platinum | $500,000
 Gold | $100,000
 Silver (5,000+) | $20,000
-Silver (2,000 to 4,999) | $10,000
-Silver (500 to 1,999) | $5,000
-Silver (Up to 499) | $2,000
+Silver (500 to 4,999) | $15,000
+Silver (100 to 499) | $10,000
+Silver (Up to 99) | $5,000
 
 To join, please complete the [membership application](https://join.graphql.org).
 
