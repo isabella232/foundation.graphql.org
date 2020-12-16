@@ -138,7 +138,7 @@ The GraphQL community is fortunate to have an active and engaged group of compan
 
 ### MEMBER CONTRIBUTIONS TO THE GRAPHQL ECOSYSTEM {#member-contributions}
 
-Our members have been active and engaged participants in the GraphQL ecosystem.  Here are some of the ways in which our ecosystem hsa been enriched through their participation.
+Our members have been active and engaged participants in the GraphQL ecosystem.  Here are some of the ways in which our ecosystem has been enriched through their participation.
 
 {{< figure src="/img/report/apollo-graphql.svg" width="200" alt="Apollo GraphQL logo" >}}
 
